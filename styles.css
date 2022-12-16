@@ -20,6 +20,12 @@ body.dark-blue {
   --bg-color: #00082F;
   --text-color: #FFFFFF;
 }
+body.black-white {
+  --bg-color: #000000;
+  --text-color: #FFFFFF;
+  --primary-color: #272727;
+  --primary-color-dark: #6D6D6D;
+}
 
 body.pink {
   --bg-color: #FFF0F6;
@@ -30,10 +36,9 @@ body.pink {
 body.pink-dark {
   --bg-color: #1F000B;
   --text-color: #FFFFFF;
-  --primary-color: #D6336C;
+  --primary-color: #272727;
   --primary-color-dark: #A61E4D;
 }
-
 body {
   background:var(--bg-color) ; 
   color: var(--text-color);
